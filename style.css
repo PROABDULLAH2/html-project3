@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section-m1{
+    margin: 40px;
+}
+.section-p1{
+    padding: 80px 80px;
+}
+.banner{
+    background-image: url(img/dmin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 100px;
+    display: flex;
+}
+.banner h1{
+    color: white;
+    font-size: 7em;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    border-bottom: 10px solid white;
+
+}
+.banner h3{
+    color: white;
+    font-size: 3.5em;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+.banner-icon{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+}
+.icon{
+    text-align: center;
+}
+.icon i{
+    font-size: 70px;
+    color: white;
+}
+.icon p{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.service{
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.services-inner{
+    width: 70%;
+    margin: auto;
+}
+.service h3{
+    font-weight: 100;
+    color: #999999;
+}
+.service h1{
+    font-weight: 800;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+.service p{
+    color: #999999;
+    font-weight: 100;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.service a{
+    padding: 10px 20px;
+    background-color: #E71A23;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px ;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.service a:hover{
+    background-color: #D1161E;
+}
+footer{
+    background-color: #333333;
+}
+.footer-inner{
+    width: 30%;
+    margin: auto;
+    color: white;
+    padding: 30px;
+}
+.footer-inner p{
+    margin-top: 60px;
+}
+.footer-inner p a{
+    color: aquamarine;
+}
+.help{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.help-inner{
+    width: 35%;
+}
+.help-inner img{
+    max-width: 100%;
+    height: auto;
+    margin: 40px 0;
+}
+.help-inner p{
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+}
+.help-inner h1{
+    font-size: 3em;
+}
+.help-inner h2{
+    font-size: 2.7em ;
+    color: #E71A23;
+}
+.qualty{
+    background-image: url(img/g.jpg);
+    background-size: cover;
+    padding: 0 100px;
+    
+}
+.qualty-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.qualty-image{
+
+}
+.qualty-txt h1{
+    font-size: 70px;
+    margin: 0;
+}
+.qualty-txt p{
+    font-size: 30px;
+}
+.qualty-txt a{
+    padding: 10px 20px;
+    background-color: #E71A23;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px ;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.div{
+    height: 5px;
+    width: 58%;
+    background-color: red;
+}
+.box{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.paint{
+    background-image: none;
+    margin: auto;
+    width: 80%;
+}
+.topline h1{
+ pointer-events: initial;
+    font-size: 4.125rem;
+    line-height: 1.1;
+    font-weight:bolder;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.box h3{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.icon1 i{
+    font-size: 70px;
+    color: rgb(238, 41, 41);
+}
+ .box p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    font-size:26px;
+}
+.box1 {
+    padding: 30px;
+}
+.box2 {
+    padding: 30px;
+}
+.box3 {
+    padding: 30px;
+}
+.aboutus{
+    background-color: blue;
+    margin: auto;
+    width: 100%;
+
+}
+.aboutusbox{
+
+    margin: auto;
+    width: 60%;
+}
+.todo{
+    background-image: none;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+.todo_txth1{
+    font-weight: 700;
+    margin: 0;
+    font-size: 3.25rem;
+    line-height: 1.1;
+    padding: 0;
+    word-wrap: break-word;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.todo_txt2{
+    word-wrap: break-word;
+    position: relative;
+    font-size: 2.875rem;
+    font-weight: 300;
+    margin: 30px 0 0;
+    text-align: center;
+    justify-content: center;
+
+    line-height: 1.6;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.todo_button{
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    margin: 50px;
+    
+
+}
+.todo_button a{
+    padding: 10px 20px;
+    background-color: #E71A23;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    row-gap:inherit;
+}
+#btn2{
+    background-color:cornsilk;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    border: 0 none transparent;
+    
+    outline-width: 0;
+}
+.aboutus {
+    background-color: #104E92;
+    height: 500px;
+}
+
+.aboutusbox {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutus_container {
+    display: flex;
+    align-items: center;
+}
+
+.aboutus_txt {
+    padding: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #eeeeee;
+    text-align: left; 
+}
+
+.aboutus_txt h6 {
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.aboutus_txt h3, 
+.aboutus_txt b {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+.aboutus_pic {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutus_pic img {
+    width: calc(50% - 10px);
+    height: auto; 
+    margin: 5px; 
+    object-fit: cover; 
+}
